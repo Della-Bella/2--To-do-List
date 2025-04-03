@@ -20,6 +20,7 @@
     width: 100%;
     max-width: 540px;
     background: white;
+    margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
 }
@@ -31,6 +32,7 @@
     justify-content: center;
     margin-bottom: 20px;
     text-align: center;
+    
 }
 
 .todo-app h2 img {
@@ -124,5 +126,23 @@ ul li span {
 }
 
 ul li span:hover {
-    background: #edeef0;
+    background: #e6e607;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #5c5a5a;
+    line-height: 40px;
+    transition: background-color 0.2s ease-in-out;/* Smoother transition */
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background: #66cc62;
+
 }
