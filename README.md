@@ -2,6 +2,8 @@
 
 This is a straightforward To-Do List web application built with HTML, CSS, and vanilla JavaScript. It demonstrates fundamental JavaScript concepts for interacting with the web page.
 
+** Live Demo:** https://to-do-list-dellabella.netlify.app/
+
 ## Features & Concepts Learned
 
 This project implements the following core functionalities and showcases understanding of:
